@@ -14,6 +14,7 @@ Each skill is self-contained and individually linkable — grab the one you want
 | [**artifact-to-pdf** 📄](https://github.com/ryanramtin/claude-skills/tree/main/skills/artifact-to-pdf) | Save a Claude Artifact or any HTML file as a PDF with layout intact. |
 | [**coding-cli-brief-loop** 🧑‍💻🔁](https://github.com/ryanramtin/claude-skills/tree/main/skills/coding-cli-brief-loop) | Brief any coding CLI with a BRIEF.md, score the result out of 10, fix it with numbered follow-ups until it passes. |
 | [**character-sheet-gate** 🎨🔒](https://github.com/ryanramtin/claude-skills/tree/main/skills/character-sheet-gate) | Character sheets with an approval gate: nothing renders until the cast is locked. |
+| [**deploy-and-verify** 🚀🔍](https://github.com/ryanramtin/claude-skills/tree/main/skills/deploy-and-verify) | After a deploy, diffs the live page against local files and reports every mismatch. |
 | [**code-rendered-video** 🎬](https://github.com/ryanramtin/claude-skills/tree/main/skills/code-rendered-video) | Promos and explainers rendered from code (HyperFrames, Remotion, HTML + ffmpeg), finished and checked before done. |
 
 ## Install
