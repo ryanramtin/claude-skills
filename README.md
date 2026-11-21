@@ -49,6 +49,11 @@ A `SKILL.md` is just frontmatter (`name`, `description`) plus instructions in Ma
 
 Issues and PRs welcome. If you fork one of these into something better, I'd like to see it.
 
+## Related tools
+
+- [**shiplog**](https://github.com/ryanramtin/shiplog) — one ship log for every agent and CLI. Comes with a skill that makes agents use it.
+- [**parachute**](https://github.com/ryanramtin/parachute) — crash-proof autosave for uncommitted work, also shipped as a skill.
+
 ## License
 
 MIT — see [LICENSE](./LICENSE). Use them, change them, ship them.
