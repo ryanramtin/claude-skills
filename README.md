@@ -1,5 +1,7 @@
 # claude-skills
 
+[![ci](https://github.com/ryanramtin/claude-skills/actions/workflows/ci.yml/badge.svg)](https://github.com/ryanramtin/claude-skills/actions/workflows/ci.yml)
+
 A small collection of [Claude Code](https://claude.com/claude-code) skills I actually use every day.
 
 Each skill is self-contained and individually linkable — grab the one you want, ignore the rest.
