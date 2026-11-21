@@ -8,6 +8,7 @@ Each skill is self-contained and individually linkable — grab the one you want
 
 | Skill | What it does |
 |---|---|
+| [**claude-statusline** 📊](https://github.com/ryanramtin/claude-skills/tree/main/skills/claude-statusline) | Model, folder, branch, rate limits and context left — always on one line at the bottom. |
 | [**emojli** 🧠⚡](https://github.com/ryanramtin/claude-skills/tree/main/skills/emojli) | Extreme clarity, minimal words, logical emoji. Replies you scan instead of read. |
 | [**chill-dude** 🤙](https://github.com/ryanramtin/claude-skills/tree/main/skills/chill-dude) | Laid-back surfer voice that still knows engineering. No corporate speak. |
 | [**minimize** 🌊](https://github.com/ryanramtin/claude-skills/tree/main/skills/minimize) | 20-second rundown across your projects: what's hot, what landed, what's owed. |
