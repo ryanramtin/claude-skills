@@ -5,7 +5,7 @@
 dest="$1"; list="$2"
 EX=(--exclude=node_modules --exclude=.next --exclude=Pods --exclude=DerivedData --exclude=.venv --exclude=.expo --exclude=.turbo)
 DX=(-x '._*' -x node_modules -x .next -x Pods -x DerivedData -x .venv -x .expo -x .turbo)
-while read -r p; do
+while IFS= read -r p || [[ -n "$p" ]]; do
   [[ -z "$p" ]] && continue
   mkdir -p "$dest/$p"
   rsync -aH $EX "$p/" "$dest/$p/" >/dev/null 2>&1 || { echo "COPYFAIL $p"; continue; }

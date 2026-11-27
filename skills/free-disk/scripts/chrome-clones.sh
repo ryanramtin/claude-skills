@@ -1,7 +1,7 @@
 #!/bin/zsh
 # Lists (default) or deletes (--delete) stale Chrome code_sign_clone copies in $TMPDIR/../X.
 # Always keeps the NEWEST clone and any clone a running process has open.
-C="$(dirname "${TMPDIR%/}")/X/com.google.Chrome.code_sign_clone"
+T="${TMPDIR:-$(getconf DARWIN_USER_TEMP_DIR)}"; C="$(dirname "${T%/}")/X/com.google.Chrome.code_sign_clone"
 [[ -d "$C" ]] || { echo "none"; exit 0; }
 live=("${(@f)$(lsof 2>/dev/null | grep -o 'code_sign_clone/code_sign_clone\.[A-Za-z0-9]*' | sort -u | sed 's#.*/##')}")
 all=("$C"/code_sign_clone.*(Nom))   # newest first

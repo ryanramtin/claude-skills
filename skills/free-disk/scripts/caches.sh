@@ -1,6 +1,6 @@
 #!/bin/zsh
 # Regenerable caches only. Safe to run anytime. Prints sizes first.
-cd "$HOME" || exit 1
+[[ -n "$HOME" && -d "$HOME" ]] || exit 1; cd "$HOME" || exit 1
 for p in Library/Caches/CocoaPods Library/Caches/Google Library/Caches/node-gyp .cache/uv/archive-v0; do
   [[ -e "$p" ]] && { print -n "$(du -sh "$p" 2>/dev/null | cut -f1)\t$p ... "; rm -rf -- "$HOME/$p" 2>/dev/null && echo ok || echo "partial(locked)"; }
 done
