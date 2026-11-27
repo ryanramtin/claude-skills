@@ -19,7 +19,7 @@ Each skill is self-contained and individually linkable — grab the one you want
 | [**character-sheet-gate** 🎨🔒](https://github.com/ryanramtin/claude-skills/tree/main/skills/character-sheet-gate) | Character sheets with an approval gate: nothing renders until the cast is locked. |
 | [**deploy-and-verify** 🚀🔍](https://github.com/ryanramtin/claude-skills/tree/main/skills/deploy-and-verify) | After a deploy, diffs the live page against local files and reports every mismatch. |
 | [**code-rendered-video** 🎬](https://github.com/ryanramtin/claude-skills/tree/main/skills/code-rendered-video) | Promos and explainers rendered from code (HyperFrames, Remotion, HTML + ffmpeg), finished and checked before done. |
-| [**free-disk** 💾🧹](https://github.com/ryanramtin/claude-skills/tree/main/skills/free-disk) | Frees Mac disk space safely: caches, stale Chrome self-copies, and git-gated offload of idle repos to an external drive. Copy, verify, then delete. |
+| [**free-disk** 💾🧹](https://github.com/ryanramtin/claude-skills/tree/main/skills/free-disk) | AI agents leave old worktrees, node_modules and caches everywhere. Clears the dead weight, backs up idle repos to an external drive, verifies, then deletes. |
 
 ## Install
 

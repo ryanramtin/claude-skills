@@ -1,6 +1,6 @@
 # free-disk 💾🧹
 
-Your Mac is out of space and a build just died. This skill frees it safely. It clears regenerable caches first, then finds the stale Chrome self-copies that quietly pile up in temp (70+ GB on one machine), then offloads idle dev folders to an external drive. Every repo goes through a git safety gate (no dirty trees, stashes or unpushed commits). It's copied, verified with a diff, and only deleted after you say so.
+AI coding agents generate a lot: worktrees per task, a fresh `node_modules` in each, build caches, temp copies. Your disk fills up and the next build dies with "No space left on device". free-disk cleans up after them. It clears regenerable caches and stale `node_modules`, removes the Chrome self-copies that pile up in temp, and moves old worktrees and idle repos to an external drive. Every repo passes a git safety gate first (no dirty trees, stashes or unpushed commits), gets copied and diff-verified, and is only deleted after you say so.
 
 It triggers on its own when Claude hits "No space left on device" or you say "free up disk".
 
